@@ -17,7 +17,7 @@ Key Features
 
 Installation
 
-1. Clone the repository: git clone https://github.com/YourUsername/WTM_HC_HG.git.
+1. Clone the repository: git clone https://github.com/omega-yzzhou/WTM_HC_HG.git.
 2. Required Files: Ensure the following grid coefficient file (WTM_HC_HG.MOD) is present in your project directory.
 
 Quick Start
@@ -29,20 +29,24 @@ Quick Start
 Repository Structure
 
 1. Code
+
 --Cal_GRAD_HG_HC.m: Main entry point for processing.
 --grad_grid.m: Horizontal gradient calculation by grid-wise GRAD.
 --wtm_hc_hg.m: Height correction coefficient calculation.
 --read_blhfile.m: Read .BLH coordinate file.
 --modified_julday.m: Convert date to mjd.
+
 2. input and output files
+
 --Example.BLH: Example coordinate file.
 --Example_Result.HG: Example result file.
+
 3. Model and product files
+
 --WTM_HC_HG.MOD: Height correction model file.
 --2019: Directory for example grid-wise GRAD products.
 
 Contact
 
 Yaozong Zhou (周要宗), Postdoc, GNSS Research Center, Wuhan University
-
 Email: zhouyaozong@whu.edu.cn
